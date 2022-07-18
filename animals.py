@@ -1,5 +1,5 @@
 from models import slithering_animals, swimming_animals, walking_animals
-from datetime import date
+
 from models.slithering_animals.skink import Skink
 from models.slithering_animals.slug import Slug
 from models.slithering_animals.snail import Snail
