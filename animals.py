@@ -16,15 +16,15 @@ from models.walking_animals.horse import Horse
 from models.walking_animals.llama import Llama
 from models.walking_animals.piggy import Piggy
 
-burt = Llama("Burt", "LLAMA")
+burt = Llama("Burt", "LLAMA", "Morning")
 
-trent = Donkey("Trent","Donk")
+trent = Donkey("Trent","Donk", "Morning")
 
-joni = Horse("Joni", "Cut Horse")
+joni = Horse("Joni", "Cut Horse", "Midday")
 
-rachel = Piggy("Rachel", "Big Belly Boy")
+rachel = Piggy("Rachel", "Big Belly Boy", "Afternoon")
 
-gwen = Cow("Gwen","Hefferrrr")
+gwen = Cow("Gwen","Hefferrrr", "Afternoon")
 
 janet = Snake("Janet", "Snek")
 
@@ -46,5 +46,6 @@ porka = Orca("Porka", "Big Orca")
 
 nick = Kraken("Nick","o shit o fuck")
 
-print(nick)
-print(nick.species)
+roberto = Llama("Roberto", "alpaca", "midday")
+print(f'{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift.')
+# prints Roberto the alpaca is available to pet during the midday shift.
