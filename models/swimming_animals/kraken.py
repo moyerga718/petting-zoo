@@ -3,12 +3,21 @@ from datetime import date
 class Kraken:
     """ANIMAL DOCSTRANG
     """
-    def __init__(self, name, species, food):
+    def __init__(self, name, species, food, chip_num):
         self.name = name
         self.species = species
         self.date_added = date.today()
         self.swimming = True
         self.food = food
+        self.__chip_number = chip_num
+
+    @property
+    def chip_number(self):
+        return self.__chip_number
+
+    @chip_number.setter
+    def chip_number(self, number):
+        pass
 
     def feed(self):
         """FEED

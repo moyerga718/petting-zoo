@@ -5,6 +5,10 @@ class PettingZoo:
         self.description = description
         self.animals = list()
 
+    @property
+    def last_critter_added(self):
+        return f'{self.animals[-1].name} the {self.animals[-1].species}'
+
     def add_animal(self, animal_obj):
         self.animals.append(animal_obj)
     
