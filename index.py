@@ -74,6 +74,10 @@ finn.chip_number = 2349876
 
 print(finn.chip_number)
 
+finn.feed()
+stefan.feed()
+burt.feed()
+
 # bobbies_zoo = PettingZoo("Bobbies Big 'Ol Zoo", "a ton of filthy rats")
 # bobbies_pit = SnakePit("Bobbies Big 'Ol Snake Pit", "a ton of gross... things")
 # bobbies_wetland = Wetlands("Bobbies Big 'Ol Wetland", "squishy, mucky, sloppy creatures")
